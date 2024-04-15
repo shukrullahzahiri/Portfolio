@@ -1,0 +1,94 @@
+
+<!--Developer Name: Shukrullah,Assigment:Portfolio, Date:April 15,2024-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shukrullah Zahiri</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <h1 class="header__logo">Shukrullah Zahiri</h1>
+            <nav class="header__nav">
+                <a href="#projects" class="header__link">Projects</a>
+                <a href="#skills" class="header__link">Skills</a>
+                <a href="#contact" class="header__link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="intro" id="home">
+            <div class="container intro__container">
+                <div class="intro__details">
+                    <h2 class="intro__title">Designing & Developing Modern Experiences</h2>
+                    <p class="intro__text">I'm Shukrullah Zahiri, a passionate software developer with a focus on front-end technologies. I love building beautiful and interactive user interfaces that provide great user experiences.</p>
+                    <a href="#contact" class="intro__cta">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2 class="section__title">Projects</h2>
+                <div class="projects__container" id="project-container">
+                    <!-- Project entries will be populated here by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="section__title">Professional Skills</h2>
+                <ul class="skills__list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container contact__container">
+                <h2 class="section__title">Get In Touch</h2>
+                <form id="contact-form" class="contact__form">
+                    <input type="text" id="name" class="form__input" placeholder="Your Name" required>
+                    <input type="email" id="email" class="form__input" placeholder="Your Email" required>
+                    <textarea id="message" class="form__textarea" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="form__button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__social">
+                <a href="https://ca.linkedin.com/in/shukrullah-zahiri-4547bb1a2" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="footer__social-link">LinkedIn</a>
+                <a href="https://twitter.com/shukrullahzahiri" target="_blank" rel="noopener noreferrer" aria-label="Twitter" class="footer__social-link">Twitter</a>
+        
+            </div>
+            <p>&copy; 2024 Shukrullah Zahiri. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modal-text">How's my porfolio</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
